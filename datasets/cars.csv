@@ -1,0 +1,301 @@
+id,city_id,brand,model,year,daily_price
+640702,1,Ford,Mustang,2022,120
+737664,6,Tesla,Model X,2018,250
+802679,3,Toyota,RAV4,2020,75
+670135,5,BMW,4 Series,2019,150
+114700,8,Mercedes-Benz,C-Class Coupe,2018,160
+109904,6,Tesla,Model X,2018,250
+465371,4,Toyota,Corolla,2022,40
+451100,5,Subaru,Outback,2022,65
+121859,8,Mercedes-Benz,C-Class Coupe,2018,160
+945917,2,Mazda,3,2019,55
+584772,6,Audi,Q5,2021,180
+765493,6,Tesla,Model X,2018,250
+286708,6,Mazda,3,2019,55
+69744,6,Land Rover,Range Rover Evoque,2019,225
+850049,1,Lexus,RX,2022,175
+316244,4,Volkswagen,Jetta,2020,50
+250300,1,Mazda,3,2019,55
+58732,6,Volkswagen,Jetta,2020,50
+85554,7,Dodge,Challenger,2020,140
+216393,3,Mercedes-Benz,C-Class Coupe,2018,160
+162877,2,Chevrolet,Camaro,2021,130
+495750,1,Subaru,Outback,2022,65
+466985,7,Land Rover,Range Rover Evoque,2019,225
+858610,5,Lexus,RX,2022,175
+91063,6,Subaru,Outback,2022,65
+620422,4,Dodge,Challenger,2020,140
+13864,7,Porsche,Macan,2020,200
+838103,3,Dodge,Challenger,2020,140
+117098,1,Volkswagen,Jetta,2020,50
+742676,2,Volkswagen,Jetta,2020,50
+27251,8,Subaru,Outback,2022,65
+355638,3,Land Rover,Range Rover Evoque,2019,225
+758508,4,Hyundai,Elantra,2018,60
+589574,6,Dodge,Challenger,2020,140
+170494,6,Volkswagen,Jetta,2020,50
+328600,1,Land Rover,Range Rover Evoque,2019,225
+203063,7,Volkswagen,Jetta,2020,50
+284244,8,BMW,4 Series,2019,150
+763648,7,Jeep,Cherokee,2021,70
+513269,5,Nissan,Rogue,2019,80
+897771,7,Toyota,RAV4,2020,75
+814109,1,BMW,4 Series,2019,150
+914240,4,Jeep,Cherokee,2021,70
+593240,7,Tesla,Model X,2018,250
+191153,4,Porsche,Macan,2020,200
+86934,2,Chevrolet,Camaro,2021,130
+134600,6,Lexus,RX,2022,175
+715496,8,Ford,Escape,2018,85
+921686,4,Lexus,RX,2022,175
+86805,2,Tesla,Model X,2018,250
+59497,7,Mazda,3,2019,55
+259481,5,Ford,Mustang,2022,120
+667278,8,Subaru,Outback,2022,65
+388588,2,Dodge,Challenger,2020,140
+849334,8,Porsche,Macan,2020,200
+167897,2,BMW,4 Series,2019,150
+867533,4,Mazda,3,2019,55
+768104,1,Toyota,Corolla,2022,40
+434010,7,BMW,4 Series,2019,150
+909605,6,Land Rover,Range Rover Evoque,2019,225
+444321,2,Tesla,Model X,2018,250
+666950,1,Toyota,Corolla,2022,40
+915171,4,Porsche,Macan,2020,200
+771326,1,Volkswagen,Jetta,2020,50
+374455,4,Chevrolet,Camaro,2021,130
+556560,7,Mercedes-Benz,C-Class Coupe,2018,160
+291825,5,Tesla,Model X,2018,250
+405735,1,Subaru,Outback,2022,65
+383637,6,Toyota,RAV4,2020,75
+491064,5,Hyundai,Elantra,2018,60
+952382,8,Honda,Civic,2021,45
+149603,5,Nissan,Rogue,2019,80
+764108,3,BMW,4 Series,2019,150
+226203,4,Volkswagen,Jetta,2020,50
+640224,1,Ford,Escape,2018,85
+615275,7,Volkswagen,Jetta,2020,50
+513945,6,Subaru,Outback,2022,65
+728828,1,BMW,4 Series,2019,150
+922400,7,Honda,Civic,2021,45
+27637,8,Honda,Civic,2021,45
+106705,8,Subaru,Outback,2022,65
+301718,6,Porsche,Macan,2020,200
+502710,2,Lexus,RX,2022,175
+602726,5,Mercedes-Benz,C-Class Coupe,2018,160
+667857,6,BMW,4 Series,2019,150
+957653,7,Mazda,3,2019,55
+210573,7,Lexus,RX,2022,175
+891835,1,Tesla,Model X,2018,250
+624948,8,BMW,4 Series,2019,150
+219186,2,Mazda,3,2019,55
+576687,1,Nissan,Rogue,2019,80
+675551,7,BMW,4 Series,2019,150
+417085,2,Mazda,3,2019,55
+287431,4,Chevrolet,Camaro,2021,130
+249071,5,Chevrolet,Camaro,2021,130
+984059,8,Chevrolet,Camaro,2021,130
+683264,5,Mazda,3,2019,55
+520260,8,Ford,Escape,2018,85
+697850,3,Porsche,Macan,2020,200
+736575,4,Toyota,Corolla,2022,40
+133701,7,Toyota,RAV4,2020,75
+819759,5,Ford,Mustang,2022,120
+656057,8,Ford,Escape,2018,85
+319558,6,Volkswagen,Jetta,2020,50
+143016,5,Subaru,Outback,2022,65
+181703,5,Ford,Mustang,2022,120
+193218,1,Land Rover,Range Rover Evoque,2019,225
+684404,8,Tesla,Model X,2018,250
+829895,8,Porsche,Macan,2020,200
+328284,7,Ford,Mustang,2022,120
+109617,7,Ford,Escape,2018,85
+740658,1,Honda,Civic,2021,45
+966625,7,Hyundai,Elantra,2018,60
+870338,2,Audi,Q5,2021,180
+72727,8,Mercedes-Benz,C-Class Coupe,2018,160
+62149,6,Volkswagen,Jetta,2020,50
+250403,7,Ford,Mustang,2022,120
+191202,5,Jeep,Cherokee,2021,70
+268847,3,Volkswagen,Jetta,2020,50
+776698,5,Subaru,Outback,2022,65
+679316,3,Mercedes-Benz,C-Class Coupe,2018,160
+970651,3,Nissan,Rogue,2019,80
+763956,2,Toyota,RAV4,2020,75
+674088,7,Porsche,Macan,2020,200
+948949,5,Subaru,Outback,2022,65
+978029,2,Tesla,Model X,2018,250
+196539,8,Honda,Civic,2021,45
+319736,8,Volkswagen,Jetta,2020,50
+147096,7,Toyota,Corolla,2022,40
+173294,4,Mercedes-Benz,C-Class Coupe,2018,160
+148690,4,Subaru,Outback,2022,65
+98113,5,Honda,Civic,2021,45
+232774,2,Ford,Escape,2018,85
+495840,1,Audi,Q5,2021,180
+170313,6,Hyundai,Elantra,2018,60
+70643,1,Ford,Mustang,2022,120
+622656,7,Nissan,Rogue,2019,80
+180383,5,Chevrolet,Camaro,2021,130
+305310,8,Tesla,Model X,2018,250
+297747,1,Subaru,Outback,2022,65
+178460,6,Mazda,3,2019,55
+421908,8,Honda,Civic,2021,45
+562243,5,Land Rover,Range Rover Evoque,2019,225
+924494,7,Nissan,Rogue,2019,80
+172189,1,Toyota,Corolla,2022,40
+968056,5,Jeep,Cherokee,2021,70
+382567,7,Volkswagen,Jetta,2020,50
+591280,7,Ford,Mustang,2022,120
+732191,1,Mercedes-Benz,C-Class Coupe,2018,160
+829196,8,Toyota,RAV4,2020,75
+977009,2,Tesla,Model X,2018,250
+648914,6,BMW,4 Series,2019,150
+745831,5,Subaru,Outback,2022,65
+792568,8,Hyundai,Elantra,2018,60
+38213,6,Honda,Civic,2021,45
+895577,8,Nissan,Rogue,2019,80
+507316,6,BMW,4 Series,2019,150
+809714,7,Honda,Civic,2021,45
+279828,8,Nissan,Rogue,2019,80
+315648,2,Audi,Q5,2021,180
+596618,3,Land Rover,Range Rover Evoque,2019,225
+128387,8,Nissan,Rogue,2019,80
+441117,8,Lexus,RX,2022,175
+252688,4,BMW,4 Series,2019,150
+295465,8,Subaru,Outback,2022,65
+92894,6,Land Rover,Range Rover Evoque,2019,225
+247224,8,Tesla,Model X,2018,250
+946721,6,Nissan,Rogue,2019,80
+771518,5,Porsche,Macan,2020,200
+488855,5,Lexus,RX,2022,175
+856174,4,Porsche,Macan,2020,200
+524260,7,Nissan,Rogue,2019,80
+540371,6,Tesla,Model X,2018,250
+243502,6,Hyundai,Elantra,2018,60
+976794,3,Nissan,Rogue,2019,80
+843189,6,Volkswagen,Jetta,2020,50
+559074,1,Subaru,Outback,2022,65
+883668,4,Volkswagen,Jetta,2020,50
+379319,4,Audi,Q5,2021,180
+657980,4,Ford,Mustang,2022,120
+960525,6,Lexus,RX,2022,175
+723582,3,Land Rover,Range Rover Evoque,2019,225
+988476,6,Audi,Q5,2021,180
+219868,2,Nissan,Rogue,2019,80
+152348,2,Porsche,Macan,2020,200
+280111,7,Mazda,3,2019,55
+177750,7,Mazda,3,2019,55
+69941,4,Jeep,Cherokee,2021,70
+378792,2,Hyundai,Elantra,2018,60
+905789,7,Audi,Q5,2021,180
+603063,4,Toyota,Corolla,2022,40
+24153,1,Jeep,Cherokee,2021,70
+795423,7,Hyundai,Elantra,2018,60
+608907,2,Tesla,Model X,2018,250
+634332,5,Subaru,Outback,2022,65
+476045,1,BMW,4 Series,2019,150
+234684,6,Ford,Mustang,2022,120
+878130,3,Hyundai,Elantra,2018,60
+636630,4,Honda,Civic,2021,45
+142684,3,Hyundai,Elantra,2018,60
+394967,4,Toyota,RAV4,2020,75
+54678,5,Subaru,Outback,2022,65
+811594,2,Honda,Civic,2021,45
+536346,4,Mercedes-Benz,C-Class Coupe,2018,160
+273021,6,Hyundai,Elantra,2018,60
+426294,8,Land Rover,Range Rover Evoque,2019,225
+262664,4,Porsche,Macan,2020,200
+50143,6,Mercedes-Benz,C-Class Coupe,2018,160
+626788,8,Nissan,Rogue,2019,80
+31754,4,Honda,Civic,2021,45
+528476,8,Nissan,Rogue,2019,80
+952015,3,Ford,Escape,2018,85
+823107,7,Tesla,Model X,2018,250
+319943,7,Toyota,RAV4,2020,75
+110979,8,Chevrolet,Camaro,2021,130
+202653,1,Ford,Mustang,2022,120
+856197,5,Jeep,Cherokee,2021,70
+936240,5,Mazda,3,2019,55
+368003,7,BMW,4 Series,2019,150
+926457,8,Mercedes-Benz,C-Class Coupe,2018,160
+530025,7,Hyundai,Elantra,2018,60
+571690,1,Honda,Civic,2021,45
+674948,5,Lexus,RX,2022,175
+743458,7,Lexus,RX,2022,175
+993495,8,Land Rover,Range Rover Evoque,2019,225
+131889,4,Lexus,RX,2022,175
+69871,4,Lexus,RX,2022,175
+24715,6,Ford,Mustang,2022,120
+952023,4,Honda,Civic,2021,45
+359977,5,Land Rover,Range Rover Evoque,2019,225
+192804,6,Toyota,Corolla,2022,40
+480962,6,Toyota,RAV4,2020,75
+869083,6,Honda,Civic,2021,45
+641263,5,Lexus,RX,2022,175
+912205,8,Dodge,Challenger,2020,140
+53329,6,Dodge,Challenger,2020,140
+69976,1,Mazda,3,2019,55
+380069,2,Lexus,RX,2022,175
+476892,8,Tesla,Model X,2018,250
+259890,2,Subaru,Outback,2022,65
+150862,8,Dodge,Challenger,2020,140
+780646,8,Toyota,Corolla,2022,40
+795263,6,BMW,4 Series,2019,150
+253634,3,Dodge,Challenger,2020,140
+723353,8,Land Rover,Range Rover Evoque,2019,225
+263619,4,BMW,4 Series,2019,150
+114561,1,Mazda,3,2019,55
+496726,7,Nissan,Rogue,2019,80
+650498,8,Mazda,3,2019,55
+635657,2,Ford,Escape,2018,85
+946028,4,Mercedes-Benz,C-Class Coupe,2018,160
+339814,4,Ford,Escape,2018,85
+804740,7,Audi,Q5,2021,180
+97058,7,Hyundai,Elantra,2018,60
+582260,5,Hyundai,Elantra,2018,60
+127627,7,Volkswagen,Jetta,2020,50
+173734,2,Porsche,Macan,2020,200
+560758,2,Honda,Civic,2021,45
+910656,1,Hyundai,Elantra,2018,60
+820038,4,Honda,Civic,2021,45
+359651,6,Ford,Escape,2018,85
+110915,3,Volkswagen,Jetta,2020,50
+538694,2,Toyota,Corolla,2022,40
+869949,6,Porsche,Macan,2020,200
+876463,7,Mercedes-Benz,C-Class Coupe,2018,160
+59324,5,Hyundai,Elantra,2018,60
+488250,5,BMW,4 Series,2019,150
+194595,4,Ford,Mustang,2022,120
+405845,5,Toyota,RAV4,2020,75
+731572,1,Dodge,Challenger,2020,140
+998357,8,Nissan,Rogue,2019,80
+860476,7,Audi,Q5,2021,180
+417594,8,Dodge,Challenger,2020,140
+244636,7,Lexus,RX,2022,175
+253906,7,Toyota,RAV4,2020,75
+635082,6,Dodge,Challenger,2020,140
+725064,8,Volkswagen,Jetta,2020,50
+111251,6,Ford,Mustang,2022,120
+187983,2,Dodge,Challenger,2020,140
+599322,6,Porsche,Macan,2020,200
+705121,4,Dodge,Challenger,2020,140
+898913,7,Mazda,3,2019,55
+975587,8,Porsche,Macan,2020,200
+810658,3,Jeep,Cherokee,2021,70
+602031,7,Chevrolet,Camaro,2021,130
+782375,1,Tesla,Model X,2018,250
+204395,7,Hyundai,Elantra,2018,60
+686900,7,Volkswagen,Jetta,2020,50
+997826,1,Toyota,Corolla,2022,40
+99035,1,Mercedes-Benz,C-Class Coupe,2018,160
+836603,8,Jeep,Cherokee,2021,70
+454194,4,Tesla,Model X,2018,250
+793510,1,Audi,Q5,2021,180
+129019,1,Mazda,3,2019,55
+869436,2,Lexus,RX,2022,175
+72944,5,Jeep,Cherokee,2021,70
+287893,4,Honda,Civic,2021,45
+772936,5,Tesla,Model X,2018,250
+975439,1,Ford,Mustang,2022,120
+761079,6,Nissan,Rogue,2019,80
