@@ -154,7 +154,7 @@ if trips is not None and cars is not None and cities is not None:
         if 'revenue' in trips_filtered.columns:
             daily_revenue = trips_filtered.groupby('pickup_date')['revenue'].sum().reset_index()
             daily_revenue = daily_revenue.sort_values('pickup_date')
-            daily_revenue['cumulative_revenue'] = daily_revenue['price'].cumsum()
+            daily_revenue['cumulative_revenue'] = daily_revenue['revenue'].cumsum()
             
             if len(daily_revenue) > 0:
                 fig = px.area(
