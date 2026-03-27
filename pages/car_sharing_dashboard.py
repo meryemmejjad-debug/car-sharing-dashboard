@@ -25,13 +25,16 @@ trips, cars, cities = load_data()
 
 if trips is not None and cars is not None and cities is not None:
     # Merge trips with cars (joining on car_id)
-    trips_merged = trips.merge(cars, left_on="car_id", right_on="id", how="left")
+    trips_merged = trips.merge(cars, left_on="car_id", right_on="id", how="left", suffixes=("", "_car"))
     
     # Merge with cities for car's city (joining on city_id)
-    trips_merged = trips_merged.merge(cities, left_on="city_id", right_on="id", how="left", suffixes=("_car", "_city"))
+    trips_merged = trips_merged.merge(cities, left_on="city_id", right_on="city_id", how="left", suffixes=("", "_city"))
     
     # Drop useless id columns
-    trips_merged = trips_merged.drop(columns=["id_car", "city_id", "id_customer", "id"], errors='ignore')
+    trips_merged = trips_merged.drop(columns=["id_car", "id_customer"], errors='ignore')
+    # Rename id column to trip_id for clarity
+    if "id" in trips_merged.columns:
+        trips_merged = trips_merged.rename(columns={"id": "trip_id"})
     
     # Update date format - convert pickup_time and dropoff_time to datetime
     trips_merged['pickup_time'] = pd.to_datetime(trips_merged['pickup_time'])
@@ -39,6 +42,9 @@ if trips is not None and cars is not None and cities is not None:
     
     # Create a new column called "pickup_date" and get the date from pickup_time
     trips_merged['pickup_date'] = trips_merged['pickup_time'].dt.date
+    
+    # Calculate duration in minutes
+    trips_merged['duration_minutes'] = (trips_merged['dropoff_time'] - trips_merged['pickup_time']).dt.total_seconds() / 60
     
     # Title
     st.title("🚗 Car Sharing Dashboard")
@@ -64,9 +70,9 @@ if trips is not None and cars is not None and cities is not None:
     total_trips = len(trips_filtered)
     total_distance = trips_filtered['distance'].sum()
     
-    # Car model with the highest revenue (calculated from price * distance or use price column if available)
-    if 'price' in trips_filtered.columns:
-        revenue_by_model = trips_filtered.groupby('model')['price'].sum()
+    # Car model with the highest revenue
+    if 'revenue' in trips_filtered.columns:
+        revenue_by_model = trips_filtered.groupby('model')['revenue'].sum()
         top_car = revenue_by_model.idxmax() if len(revenue_by_model) > 0 else "N/A"
         top_revenue = revenue_by_model.max() if len(revenue_by_model) > 0 else 0
     else:
@@ -87,7 +93,7 @@ if trips is not None and cars is not None and cities is not None:
         st.metric(label="Total Distance (km)", value=f"{total_distance:,.2f}")
     
     # Additional metric for total revenue
-    st.metric(label="Total Revenue", value=f"${trips_filtered['price'].sum():,.2f}" if 'price' in trips_filtered.columns else "N/A")
+    st.metric(label="Total Revenue", value=f"${trips_filtered['revenue'].sum():,.2f}" if 'revenue' in trips_filtered.columns else "N/A")
     
     # Display preview of the dataframe
     st.subheader("📋 Data Preview")
@@ -127,8 +133,8 @@ if trips is not None and cars is not None and cities is not None:
     # 2. Revenue Per Car Model
     with tab2:
         st.subheader("Revenue Per Car Model")
-        if 'price' in trips_filtered.columns and 'model' in trips_filtered.columns:
-            revenue_by_model = trips_filtered.groupby('model')['price'].sum().sort_values(ascending=False).head(10)
+        if 'revenue' in trips_filtered.columns and 'model' in trips_filtered.columns:
+            revenue_by_model = trips_filtered.groupby('model')['revenue'].sum().sort_values(ascending=False).head(10)
             if len(revenue_by_model) > 0:
                 fig = px.bar(
                     x=revenue_by_model.index,
@@ -145,8 +151,8 @@ if trips is not None and cars is not None and cities is not None:
     # 3. Cumulative Revenue Growth Over Time
     with tab3:
         st.subheader("Cumulative Revenue Growth Over Time")
-        if 'price' in trips_filtered.columns:
-            daily_revenue = trips_filtered.groupby('pickup_date')['price'].sum().reset_index()
+        if 'revenue' in trips_filtered.columns:
+            daily_revenue = trips_filtered.groupby('pickup_date')['revenue'].sum().reset_index()
             daily_revenue = daily_revenue.sort_values('pickup_date')
             daily_revenue['cumulative_revenue'] = daily_revenue['price'].cumsum()
             
@@ -200,8 +206,8 @@ if trips is not None and cars is not None and cities is not None:
     # 6. Revenue by City
     with tab6:
         st.subheader("Revenue by City")
-        if 'price' in trips_filtered.columns and 'city_name' in trips_filtered.columns:
-            revenue_by_city = trips_filtered.groupby('city_name')['price'].sum().sort_values(ascending=False)
+        if 'revenue' in trips_filtered.columns and 'city_name' in trips_filtered.columns:
+            revenue_by_city = trips_filtered.groupby('city_name')['revenue'].sum().sort_values(ascending=False)
             if len(revenue_by_city) > 0:
                 fig = px.bar(
                     x=revenue_by_city.index,
